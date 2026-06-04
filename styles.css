@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(fonts/Poppins.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(fonts/Montserrat.ttf);
+}
+
+/* Header styles */
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #282828;
+  padding: 0 100px;
+  height: 64px;
+  align-items: center;
+}
+
+#header img {
+  height: 36px;
+  width: 102px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+}
+
+.nav-links a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-links a:hover {
+  color: #53e5b9;
+}
+
+.nav-links a li {
+  list-style: none;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.tertiary-btn {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tertiary-btn:hover {
+  color: #53e5b9;
+}
+
+.primary-btn {
+  padding: 12px 24px;
+  border-radius: 114px;
+  background: #6ec5a0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  transition-duration: 0.4s;
+}
+
+.primary-btn:hover {
+  background: none;
+  border: solid 1px #6ec5a0;
+}
+
+/* Hero section styles */
+
+.hero-section {
+  background-image: url(images/hero-img.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 120px;
+  margin-top: 80px;
+}
+
+.hero-texts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero-texts p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 125%;
+  margin-top: -2%;
+}
+
+.hero-texts p span {
+  color: #00ffd1;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.hero-title h1 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 4px 20.4px rgba(30, 30, 30, 0.24);
+  font-family: Montserrat;
+  font-size: 164px;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: -5%;
+}
+
+.secondary-btn {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 12px 36px;
+  border-radius: 114px;
+  border: solid 1px #3db692;
+  transition-duration: 0.4s;
+}
+
+.secondary-btn:hover {
+  border: none;
+  background-color: #3db692;
+}
