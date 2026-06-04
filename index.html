@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -35,8 +36,73 @@
       </div>
     </section>
     <section id="news-section">
-      <h2></h2>
+      <h2>ULTIMELE ȘTIRI</h2>
+      <div class="news-slider">
+        <a href="">vezi toate</a>
+        <div class="news-slider-cards">
+          <button class="slider-arrow" type="button" data-direction="prev">
+            <img src="images/arrow-left.png" alt="" />
+          </button>
+          <div class="cards" id="news-cards">
+            <div class="card">
+              <img src="images/card-img1.jpg" alt="" />
+              <p>Revenirea lui Dorin Recean în satul de baștină</p>
+              <a href="">Vezi</a>
+            </div>
+            <div class="card">
+              <img src="images/card-img2.jpg" alt="" />
+              <p>
+                Vila Ohanovicz în 2024. <br />
+                Oportunități
+              </p>
+              <a href="">Vezi</a>
+            </div>
+            <div class="card">
+              <img src="images/card-img3.jpg" alt="" />
+              <p>
+                A șaptea ediție a festivalului “Portului Popular și al Pâinii”
+              </p>
+              <a href="">Vezi</a>
+            </div>
+            <div class="card">
+              <img src="images/card-img1.jpg" alt="" />
+              <p>Revenirea lui Dorin Recean în satul de baștină</p>
+              <a href="">Vezi</a>
+            </div>
+          </div>
+          <button class="slider-arrow" type="button" data-direction="next">
+            <img src="images/arrow-right.png" alt="" />
+          </button>
+        </div>
+      </div>
     </section>
-    <section id="about-section"></section>
+    <section id="about-section">
+      <h2>DESPRE LOCALITATE</h2>
+      <div class="about-content">
+        <div class="about-texts">
+          <p>
+            <span>Satul Mîndîc</span> este o localitate in Raionul
+            Drochia situata la latitudinea 48.1511 longitudinea 27.7927 si
+            altitudinea de 154 metri fata de nivelul marii. <br />
+            <br />
+            Aceasta localitate este in administrarea or. Drochia. Conform
+            recensamintului din anul 2004 populatia este de 3 402 locuitori.
+            <br />
+            <br />Distanța directă pîna în or. Drochia este de 12 km. Distanța
+            directă pîna în or. Chişinău este de 163 km.
+          </p>
+          <a class="green-btn" href="">Legenda</a>
+        </div>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45020.3228669451!2d27.775459815944618!3d48.16230149031107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ccb480cb0a51a5%3A0xc2dfbc7c00ea71c4!2zTcOubmTDrmMsIE1vbGRvdmE!5e1!3m2!1sen!2s!4v1780556968853!5m2!1sen!2s"
+          width="600px"
+          height="450px"
+          style="border: 0"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
   </body>
 </html>
